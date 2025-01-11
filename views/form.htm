@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario con Validaciones</title>
+	<link rel="stylesheet" href="formStyle.css">
+</head>
+
+<body>
+	<main>
+		<div id="container">
+			<h1>Formulario</h1>
+			<form id="userForm">
+				<div class="form-group">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="nombre">
+					<div class="error" id="nombreError"></div>
+				</div>
+
+				<div class="form-group">
+					<label for="apellido">Apellido:</label>
+					<input type="text" id="apellido" name="apellido">
+					<div class="error" id="apellidoError"></div>
+				</div>
+
+				<div class="form-group">
+					<label for="edad">Edad:</label>
+					<input type="text" id="edad" name="edad">
+					<div class="error" id="edadError"></div>
+				</div>
+
+				<button type="submit">Enviar</button>
+			</form>
+
+			<div class="output" id="output"></div>
+		</div>
+	</main>
+	<script src="../registration/formScript.js" type="module"></script>
+</body>
+
+</html>

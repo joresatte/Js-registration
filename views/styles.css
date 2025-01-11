@@ -1,0 +1,67 @@
+/* root elements style css */
+:root {
+	--h1-border: solid blue;
+	--post-border:1px solid #ef0c0c;
+	--post-bg-color: #fff;
+	--post-a-color: #007bff;
+	--main-bg-color: #f4f4f9;
+	--main-post-bg-color: #fff;
+	--main-shd-bx-color: 0 4px 8px rgba(0, 0, 0, 0.6);
+	--main-input-br: 1px solid #ccc;
+	--main-input-fcs: #007bff;
+	--main-form-gr-pd: 0 10px 0 0;
+	--main-error-color: red;
+	--main-output-bg-color: black;
+	--main-btn-bg-color: #007bff;
+	--main-btn-hover-color: #0056b3;
+	--post-border:1px solid #ccc;
+}
+
+h1 {
+	text-align: center;
+	border:var(--h1-border);
+	margin: 0 0 1em 0;
+}
+.main-class{
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+#posts .post {
+	border: var(--post-border);
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 10px;
+	background-color: var(--post-bg-color);
+}
+
+#posts .post h2 {
+	margin: 0 0 10px 0;
+}
+
+#posts .post a {
+	text-decoration: none;
+	color: var(--post-a-color);
+}
+h1 {
+	text-align: center;
+	border: var(--h1-border);
+	margin: 0 0 1em 0;
+}
+#post {
+	border: var(--post-border);
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 10px;
+	background-color: var(--post-bg-color);
+}
+
+#post h2 {
+	margin: 0 0 10px 0;
+}
+
+#post a {
+	text-decoration: none;
+	color: var(--post-a-color);
+}
+
